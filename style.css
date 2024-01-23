@@ -1,0 +1,191 @@
+.banner {
+    background-image: url('./assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.opacity {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -01;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 11111;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+
+}
+
+.wrapper button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin: 20px 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+
+.wrapper button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.secSection {
+    padding: 60px 0;
+}
+
+.headingWrap {
+    padding: 0 0 70px;
+}
+
+.headingWrap h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.headingWrap p {
+    color: black;
+    font-size: 20px;
+}
+
+.cardWrap {
+    padding: 28px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s;
+}
+
+.cardWrap:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardWrap p {
+    line-height: 30px;
+}
+
+.cardWrap button {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 255, 153);
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.bottom-text p {
+    text-align: left;
+    padding: 90px 180px;
+}
+
+.txt-heading h1 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.searchBox {
+    background-color: rgb(210, 210, 210);
+    padding: 60px 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    width: 40%;
+}
+
+.search button {
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(0, 255, 153);
+}
+
+.cards {
+    padding: 50px 0;
+}
+
+.cardWrapper1 {
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+.cardWrapper2 {
+    border-radius: 5px;
+    padding: 30px 30px;
+    background-color: rgb(99, 255, 99);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+.cardWrapper3 {
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 72, 72);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+.cardWrapper1 p{
+    padding: 20px 0;
+    line-height: 30px;
+}
+.cardWrapper2 p{
+    padding: 20px 0;
+    line-height: 30px;
+}
+.cardWrapper3 p{
+    padding: 20px 0;
+    line-height: 30px;
+}
+.cardWrapper1 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    margin-left: -5px;
+}
+.cardWrapper2 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-left: -5px;
+    text-transform: uppercase;
+}
+.cardWrapper3 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    margin-left: -5px;
+}
